@@ -12,8 +12,7 @@ public class Week03Lab {
 			// 1. Create an array with the following values 1, 5, 2, 8, 13, 6
 
 				int[] numbersArray = {1, 5, 2, 8, 13, 6};
-				
-			
+		
 			// 2. Print out the first element in the array
 		
 				System.out.println("Number: " + numbersArray[0]);
@@ -130,7 +129,7 @@ public class Week03Lab {
 			//			returns true if the string is a palindrome
 				String word = "ABBA";
 				System.out.println("This is a palindrome: " + palindrome(word));
-				// Note this does not check if the words are the same based on capitalization.  It onle checks the characters, so Abba is False, while ABBA is true.
+				// Note this does not check if the words are the same based on capitalization.  It only checks the characters, so Abba is False, while ABBA is true.
 		}
 		// Method 13:
 	public static void printName (String name) {
