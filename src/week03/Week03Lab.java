@@ -116,11 +116,12 @@ public class Week03Lab {
 				System.out.println(smallestInt);
 			// 18. Write and test a method that takes an array of double and 
 			//			returns the average			
-				double averageDouble = averageDouble(numbersArray);
+				averageDouble(numbersArray); // I used the int array of numbers rather than doubles.  Return was still a double though based on the returned value.
+				
 			// 19. Write and test a method that takes an array of Strings and 
 			//			returns an array of int where each element
 			//			matches the length of the string at that position
-				elementLength(namesArray);
+				elementLength(namesArray); //misread this one and printed within the method the number of characters in each element of the namesArray.
 			// 20. Write and test a method that takes an array of strings and 
 			//			returns true if the sum of letters for all strings with an even amount of letters
 			//			is greater than the sum of those with an odd amount of letters.
